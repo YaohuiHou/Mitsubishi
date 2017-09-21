@@ -1,0 +1,493 @@
+/*音乐*/
+#control{position: absolute;right:20px;top:20px;width: 60px; height: 60px;border-radius:50%; z-index: 11;font-family: 'Three';color: #ac2e30;font-size: 60px;line-height: 60px;text-align: center;}
+#control.on{-webkit-animation:music 1s linear 0s infinite; animation:music 1s linear 0s infinite;}
+#control.off{}
+@keyframes music{
+	0% {transform:rotate(0deg);}
+	100% {transform:rotate(360deg);}
+}
+.container{
+    .container-wrapper{
+        .page-slide.swiper-slide-active{
+            &.swiper-slide21{
+                .huangshan{
+                    transition: all 2s linear 3.5s;
+                    transform:translate3d( 100%, 0 ,0 );
+                    .hint{
+                        animation: lightSpeedIn ease-out 1s 0.2s;
+                    }
+                }
+                .taipinghu{
+                    transition: all 2s linear 3.5s;
+                    transform:translate3d( 0, 0, 0 );
+                    .hint{
+                        animation: rotateInDownRight ease-out 1s 5.5s;
+                        animation-fill-mode: forwards;
+                    }
+                }
+                h2{
+                    animation: fadeInLeft linear 1s 1.5s;
+                    animation-fill-mode: forwards;
+                }
+                .yun{
+                    animation: yunduo linear 8s infinite;
+                }
+                .car{
+                    animation: bounceInRight linear 2s;
+                }
+                .shan{
+                    animation: shanBgAnimtion linear 3s 0.3s;
+                    animation-fill-mode: forwards;
+                    .bird1{
+                        animation: birdAnimtion1 linear 3s 0.3s;
+                        animation-fill-mode: forwards;
+                    }
+                    .bird2{
+                        animation: birdAnimtion2 linear 5s;
+                        animation-fill-mode: forwards;
+                    }
+                }
+            }
+            &.swiper-slide82,&.swiper-slide83{
+                animation: swiperBgAnimtion linear 4s;
+                animation-fill-mode: forwards;
+                .car{
+                    animation: bounceInRight linear 2.5s;
+                }
+                .hint{
+                    animation: rotateInDownRight ease-out 1s .2s;
+                    animation-fill-mode: forwards;
+                }
+                .shan{
+                    animation: shanBgAnimtion linear 20s 0.3s;
+                    animation-fill-mode: forwards;
+                }
+            }
+			&.swiper-slide-new1 .car{
+				animation: zoomInLeft linear 1s;
+			}
+			&.swiper-slide-new2 .car{
+				animation: zoomInRight linear 1s;
+			}
+			&.swiper-slide-new2,&.swiper-slide-new1{
+				.car{
+					.title{
+						transition: all 1s linear .5s;
+						transform:translate3d(0,0,0) scale(1);
+					}
+				}
+				.yun{
+                    animation: yunduo linear 15s infinite;
+                }
+				.hint{
+					animation: bounceInUp linear 1s 1s;
+                    animation-fill-mode: forwards;
+				}
+			}
+            &.swiper-slide26{
+                .yunduo{
+					animation: yunduo1 linear 3.5s 1s;
+                    animation-fill-mode: forwards;
+                }
+                .yundu{
+					animation: yunduo2 linear 3.5s 1s;
+                    animation-fill-mode: forwards;
+                }
+                p{
+                    animation: fadeInRight linear 1s 2.5s;
+                    animation-fill-mode: forwards;
+                }
+            }
+            &.swiper-slide28{
+                h2{
+                    animation: zoomInLeft linear 1.5s;
+                }
+                ul{
+                    li{
+                        &:nth-of-type(1){
+                            animation: bounceInRight linear 1.5s 2.5s;
+                            animation-fill-mode: forwards;
+                        }
+                        &:nth-of-type(2){
+                            animation: bounceInRight linear 1.5s 2s;
+                            animation-fill-mode: forwards;
+                        }
+                        &:nth-of-type(3){
+                            animation: bounceInRight linear 1.5s 1.5s;
+                            animation-fill-mode: forwards;
+                        }
+                        &:nth-of-type(4){
+                            animation: bounceInRight linear 1.5s 1s;
+                            animation-fill-mode: forwards;
+                        }
+                    }
+                }
+            }
+            &.swiper-slide29{
+                p{
+                    transition: all 1s linear .5s;
+                    transform:translate3d( 0, 0, 0 ) scale(1);
+                }
+                .code{
+                    animation: flipInY linear 2s 1s;
+                    animation-fill-mode: forwards;
+                }
+            }
+            .flower{
+                .hua1{
+                    animation: huaAnima1 linear 6s infinite;
+                }
+                .hua2{
+                    animation: huaAnima2 linear 6s infinite;
+                }
+                .hua3{
+                    animation: huaAnima3 linear 6s infinite 1s;
+                }
+                .hua4{
+                    animation: huaAnima4 linear 6s infinite;
+                }
+                .hua5{
+                    animation: huaAnima5 linear 6s infinite 1s;
+                }
+                .hua6{
+                    animation: huaAnima6 linear 6s infinite;
+                }
+                .hua7{
+                    animation: huaAnima7 linear 6s infinite 5s;
+                }
+                .hua8{
+                    animation: huaAnima8 linear 6s infinite 4s;
+                }
+                .hua9{
+                    animation: huaAnima9 linear 6s infinite 3s;
+                }
+                .hua0{
+                    animation: huaAnima0 linear 6s infinite 2s;
+                }
+                .hua11{
+                    animation: huaAnima1 linear 6s infinite 1s;
+                }
+                .hua12{
+                    animation: huaAnima2 linear 6s infinite 5s;
+                }
+                .hua13{
+                    animation: huaAnima3 linear 6s infinite 4s;
+                }
+                .hua14{
+                    animation: huaAnima4 linear 6s infinite 3s;
+                }
+                .hua15{
+                    animation: huaAnima5 linear 6s infinite 2s;
+                }
+                .hua16{
+                    animation: huaAnima6 linear 6s infinite 1s;
+                }
+                .hua17{
+                    animation: huaAnima7 linear 6s infinite 5s;
+                }
+                .hua18{
+                    animation: huaAnima8 linear 6s infinite 4s;
+                }
+                .hua19{
+                    animation: huaAnima9 linear 6s infinite 3s;
+                }
+                .hua10{
+                    animation: huaAnima0 linear 6s infinite 2s;
+                }
+            }
+        }
+    }
+}
+@keyframes zoomInRight {
+    0% {
+        opacity: 0;
+        transform: scale3d(.1,.1,.1) translate3d(1000px,0,0);
+        animation-timing-function: cubic-bezier(.55,.055,.675,.19)
+    }
+
+    60% {
+        opacity: 1;
+        transform: scale3d(.475,.475,.475) translate3d(-10px,0,0);
+        animation-timing-function: cubic-bezier(.175,.885,.32,1)
+    }
+}
+@keyframes bounceInUp {
+    0%,60%,75%,90%,to {
+        animation-timing-function: cubic-bezier(.215,.61,.355,1)
+    }
+
+    0% {
+        opacity: 0;
+        transform: translate3d(0,3000px,0)
+    }
+
+    60% {
+        opacity: 1;
+        transform: translate3d(0,-20px,0)
+    }
+
+    75% {
+        transform: translate3d(0,10px,0)
+    }
+
+    90% {
+        transform: translate3d(0,-5px,0)
+    }
+
+    to {
+        transform: translateZ(0)
+    }
+}
+
+@keyframes yunduo1 {
+    0% {opacity: 1;transform: translate3d( 0,0,0)}
+    to {opacity: 0;transform:translate3d( 0, -100%, 0 );}
+}
+@keyframes yunduo2 {
+    0% {opacity: 1;transform:translate3d( 0, 0, 0 ) rotate(180deg);}
+    to {opacity: 0;transform:translate3d( 0, 100%, 0 ) rotate(180deg);}
+}
+@keyframes huaAnima1 {
+    0% {opacity: 1;transform: translate3d( -50px,0,0)}
+    to {opacity: 0;transform: translate3d( 400px, 700px ,0) rotate(10deg);}
+}
+@keyframes huaAnima2 {
+    0% {opacity: 1;transform: translate3d( -50px,200,0)}
+    to {opacity: 0;transform: translate3d( 690px, 400px ,0) rotate(-10deg);}
+}
+@keyframes huaAnima3 {
+    0% {opacity: 1;transform: translate3d( -50px, 80px,0)}
+    to {opacity: 0;transform: translate3d( 570px, 600px ,0) rotate(10deg);}
+}
+@keyframes huaAnima4 {
+    0% {opacity: 1;transform: translate3d( -50px,100px,0)}
+    to {opacity: 0;transform: translate3d( 600px, 500px ,0) rotate(5deg);}
+}
+@keyframes huaAnima5 {
+    0% {opacity: 1;transform: translate3d( -50px,75px,0)}
+    to {opacity: 0;transform: translate3d( 460px, 400px ,0) rotate(3deg);}
+}
+@keyframes huaAnima6 {
+    0% {opacity: 1;transform: translate3d( -50px,240px,0)}
+    to {opacity: 0;transform: translate3d( 630px, 360px ,0) rotate(10deg);}
+}
+@keyframes huaAnima7 {
+    0% {opacity: 1;transform: translate3d( -50px,200px,0)}
+    to {opacity: 0;transform: translate3d( 770px, 630px ,0);}
+}
+@keyframes huaAnima8 {
+    0% {opacity: 1;transform: translate3d( -50px,350px,0)}
+    to {opacity: 0;transform: translate3d( 500px, 200px ,0);}
+}
+@keyframes huaAnima9 {
+    0% {opacity: 1;transform: translate3d( -50px, 120px,0)}
+    to {opacity: 0;transform: translate3d( 670px, 460px ,0);}
+}
+@keyframes huaAnima0 {
+    0% {opacity: 1;transform: translate3d( -50px, 400px,0)}
+    to {opacity: 0;transform: translate3d( 700px, 200px ,0) rotate(-10deg);}
+}
+
+@keyframes flipInY {
+    0% {
+        transform: perspective(400px) rotateY(90deg);
+        animation-timing-function: ease-in;
+        opacity: 0
+    }
+
+    40% {
+        transform: perspective(400px) rotateY(-20deg);
+        animation-timing-function: ease-in
+    }
+
+    60% {
+        transform: perspective(400px) rotateY(10deg);
+        opacity: 1
+    }
+
+    80% {
+        transform: perspective(400px) rotateY(-5deg);
+        opacity: 1
+    }
+
+    to {
+        transform: perspective(400px);
+        opacity: 1
+    }
+}
+@keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        transform: translate3d(0,-100%,0)
+    }
+
+    to {
+        opacity: 1;
+        transform: none
+    }
+}
+
+@keyframes zoomInLeft {
+    0% {
+        opacity: 0;
+        transform: scale3d(.1,.1,.1) translate3d(-1000px,0,0);
+        animation-timing-function: cubic-bezier(.55,.055,.675,.19)
+    }
+
+    60% {
+        opacity: 1;
+        transform: scale3d(.475,.475,.475) translate3d(10px,0,0);
+        animation-timing-function: cubic-bezier(.175,.885,.32,1)
+    }
+}
+@keyframes fadeInRight {
+    0% {
+        opacity: 0;
+        transform: translate3d(100%,0,0)
+    }
+
+    to {
+        opacity: 1;
+        transform: none
+    }
+}
+@keyframes rotateInDownRight {
+    0% {
+        transform-origin: right bottom;
+        transform: rotate(45deg);
+        opacity: 0
+    }
+
+    to {
+        transform-origin: right bottom;
+        transform: none;
+        opacity: 1
+    }
+}
+@keyframes swiperBgAnimtion {
+    0% {
+        background-size: 110% 110%;
+        background-position: 100% 100%;
+    }
+    to {
+        background-size: 110% 110%;
+        background-position: 0 100%;
+    }
+}
+@keyframes shanBgAnimtion {
+    0% {
+        background-position: -175px 0;
+    }
+
+    to {
+        background-position: 100px 0;
+    }
+}
+@keyframes birdAnimtion1 {
+    0% {
+        transform: translate3d(-40px,0,0) scale(0)
+    }
+    80% {
+        transform: translate3d(0,0,0) scale(1.3)
+    }
+    to {
+        transform: translate3d(80px, 40px,0) scale(1);
+        opacity: 0
+    }
+}
+@keyframes birdAnimtion2 {
+    0% {
+        transform: translate3d(400px,0,0) scale(1)
+    }
+    to {
+        transform: translate3d(-800px, -500px,0) scale(0);
+        opacity: 0
+    }
+}
+@keyframes bounceInRight {
+    0%,60%,75%,90%,to {
+        animation-timing-function: cubic-bezier(.215,.61,.355,1)
+    }
+
+    0% {
+        opacity: 0;
+        transform: translate3d(3000px,0,0)
+    }
+
+    60% {
+        opacity: 1;
+        transform: translate3d(-25px,0,0)
+    }
+
+    75% {
+        transform: translate3d(10px,0,0)
+    }
+
+    90% {
+        transform: translate3d(-5px,0,0)
+    }
+
+    to {
+        transform: none;
+        opacity: 1;
+    }
+}
+@keyframes fadeInLeft {
+    0% {
+        opacity: 0;
+        transform: translate3d(-100%,0,0)
+    }
+
+    to {
+        opacity: 1;
+        transform: none
+    }
+}
+@keyframes lightSpeedIn {
+    0% {
+        transform: translate3d(100%,0,0) skewX(-30deg);
+        opacity: 0
+    }
+
+    60% {
+        transform: skewX(20deg);
+        opacity: 1
+    }
+
+    80% {
+        transform: skewX(-5deg);
+        opacity: 1
+    }
+
+    to {
+        transform: none;
+        opacity: 1
+    }
+}
+@keyframes bounceInLeft {
+    0%,60%,75%,90%,to {
+        animation-timing-function: cubic-bezier(.215,.61,.355,1)
+    }
+
+    0% {
+        opacity: 0;
+        transform: translate3d(-3000px,0,0)
+    }
+
+    60% {
+        opacity: 1;
+        transform: translate3d(25px,0,0)
+    }
+
+    75% {
+        transform: translate3d(-10px,0,0)
+    }
+
+    90% {
+        transform: translate3d(5px,0,0)
+    }
+
+    to {
+        transform: none
+    }
+}

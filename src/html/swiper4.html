@@ -1,0 +1,19 @@
+<span class="logo"></span>
+<h2>行程</h2>
+<ul>
+    <% var name = [
+        {name:'太平湖',img:'../img/21-29/view-tp_03.jpg'},
+        {name:'棠樾牌坊群',img:'../img/21-29/view-pf_03.jpg'},
+        {name:'八卦村',img:'../img/21-29/view-bg_03.jpg'},
+        {name:'涵月楼',img:'../img/21-29/view-hy_03.jpg'}
+    ] %>
+    <% name.forEach(function(user){ %>
+        <li data-img="<%- user.img %>"><%- user.name %></li>
+    <% }) %>
+</ul>
+<div class="layer" id="layer_view">
+    <figure>
+        <em id="layer_close">关</em>
+        <img src="../img/21-29/view-hy_03.jpg" alt="">
+    </figure>
+</div>
